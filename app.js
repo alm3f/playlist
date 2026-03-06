@@ -2,19 +2,19 @@ const songs = [
   {
     title:  "WDYS",
     artist: "yedira ft. asheu",
-    url:    "https://youtu.be/c3XBLOouM-w?si=Envzajz5VNN8O6IF",
+    url:    "yedira ft. asheu - WDYS (Official Lyric Video).mp3",
     cover:  "yedira ft. asheu - WDYS (Official Lyric Video).jpg"
   },
   {
     title:  "Obvious",
     artist: "Jesse Barrera, Jeremy Passion, Gabe Bondoc",
-    url:    "https://youtu.be/Jpe7oTMEy_Y?si=WzcXtbiYpJNz5Jag",
+    url:    "Jesse Barrera, Jeremy Passion, Gabe Bondoc - ＂Obvious＂ [Official Music Video].mp3",
     cover:  "Jesse Barrera, Jeremy Passion, Gabe Bondoc - ＂Obvious＂ [Official Music Video].jpg"
   },
   {
     title:  "U(You)",
     artist: "KIDO3008",
-    url:    "https://youtu.be/w68Tbwr_0ac?si=mkYbMregpGw0F-ja",
+    url:    "KIDO3008 - U(You) (Lyric Video).mp3",
     cover:  "KIDO3008 - U(You) (Lyric Video).jpg"
   },
   {
@@ -32,43 +32,43 @@ const songs = [
   {
     title:  "your love",
     artist: "brb.",
-    url:    "https://youtu.be/sI3YvD9pOgk?si=VT1zejudgVsTyraB",
+    url:    "your love - brb. and Jimmy Brown (Lyric Video).mp3",
     cover:  "your love - brb. and Jimmy Brown (Lyric Video).jpg"
   },
   {
     title:  "Once Upon a Time",
     artist: "Jeff Bernat",
-    url:    "https://youtu.be/UuaIGT-ZlWA?si=7LcAYA1rixptEaQj",
+    url:    "Once Upon a Time.mp3",
     cover:  "Once Upon a Time.jpg"
   },
   {
     title:  "universe",
     artist: "thuy",
-    url:    "https://youtu.be/CFtWAWnlUv4?si=kFI76QrnK0DHf5nG",
+    url:    "thuy - universe (official visualizer⧸lyric video).mp3",
     cover:  "thuy - universe (official visualizer⧸lyric video).jpg"
   },
   {
     title:  "Better With You",
     artist: "Austin Mahone",
-    url:    "https://youtu.be/oia_Ng0uHUs?si=-g4MypDBRyogV6Fv",
+    url:    "Austin Mahone - Better With You.mp3",
     cover:  "Austin Mahone - Better With You.jpg"
   },
   {
     title:  "Everlasting",
     artist: "Albert Posis",
-    url:    "https://youtu.be/uiKEh5q3Pn4?si=5KC6DFW6RhZitZ1e",
+    url:    "Albert Posis - Everlasting (Official Music Video).mp3",
     cover:  "Albert Posis - Everlasting (Official Music Video).jpg"
   },
   {
     title:  "More & More",
     artist: "Finding Hope",
-    url:    "https://youtu.be/aiZTtkaUBFM?si=jEWD4asWs7wwco97",
+    url:    "More & More.mp3",
     cover:  "More & More.jpg"
   },
   {
     title:  "your text",
     artist: "sundial",
-    url:    "https://youtu.be/zUZ1mR77GCo?si=99VGv4Svaxrbg3lu",
+    url:    "[LYRICS] sundial - your text.mp3",
     cover:  "[LYRICS] sundial - your text.jpg"
   },
   {
@@ -86,7 +86,7 @@ const songs = [
   {
     title:  "Ride",
     artist: "HYBS",
-    url:    "https://youtu.be/qbEVGyRfS0I?si=cQawj_aDW9tFESH_",
+    url:    "HYBS - Ride (Official Video).mp3",
     cover:  "HYBS - Ride (Official Video).jpg"
   },
 
@@ -106,7 +106,7 @@ const songs = [
   {
     title:  "Rest Assured",
     artist: "Jeff Bernat, Albert Posis, Jesse Barrera, PRVDNT",
-    url:    "https://youtu.be/p8z2Umtrjrw?si=4NMJ-TBwVqnECcNx",
+    url:    "Jeff Bernat, Albert Posis, Jesse Barrera, PRVDNT ＂Rest Assured＂ (Lyric Video).mp3",
     cover:  "Jeff Bernat, Albert Posis, Jesse Barrera, PRVDNT ＂Rest Assured＂ (Lyric Video).jpg"
   },
   {
@@ -124,7 +124,7 @@ const songs = [
   {
     title:  "Nothing",
     artist: "Jeremy Passion",
-    url:    "https://youtu.be/wQeNczbT6nw?si=r1njcGQ01zbDfhRV",
+    url:    "Nothing.mp3",
     cover:  "Nothing.jpg"
   },
   {
