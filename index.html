@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+  <title>playlist for you 🌸</title>
+
+  <meta property="og:title"       content="uxui fecamp test"/>
+  <meta property="og:description" content="เทส ๆ"/>
+  <meta property="og:image"       content="https://e7.pngegg.com/pngimages/473/334/png-clipart-paper-sticker-line-friends-decal-line-carnivoran-chibi.png"/>
+  <meta property="og:type"        content="website"/>
+  <meta name="description"        content="เทส ๆ"/>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+  <div class="hearts-bg" id="hearts-bg"></div>
+
+  <audio id="audio-el" preload="none"></audio>
+
+  <div id="app">
+
+    <header class="site-header">
+      <div class="eyebrow">made for nina</div>
+      <h1 class="site-title">songs for <em>you</em></h1>
+      <p class="site-sub">hint: look at the first letter of each song title, and put them together to see what they spell</p>
+    </header>
+
+    <div class="player-card" id="player-card">
+
+      <div class="art-area">
+        <div id="yt-shell"><div id="yt-container"></div></div>
+        <div class="album-art" id="album-art">
+          <span class="art-emoji">🌸</span>
+        </div>
+        <div id="mp3-badge"><span class="dot"></span>MP3</div>
+      </div>
+
+      <div class="track-meta">
+        <div class="track-title" id="np-title">Pick a song you want to listen to</div>
+        <div class="track-artist" id="np-artist">🎧</div>
+      </div>
+
+      <div class="progress-section">
+        <div class="prog-bg" id="prog-bg">
+          <div class="prog-fill" id="prog-fill">
+            <div class="prog-thumb"></div>
+          </div>
+        </div>
+        <div class="time-row">
+          <span id="t-curr">0:00</span>
+          <span id="t-total">0:00</span>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button class="ctrl-icon" id="btn-shuffle" title="Shuffle">
+          <svg viewBox="0 0 24 24"><path d="M10.59 9.17 5.41 4 4 5.41l5.17 5.17zm4.76-.18 3.65 3.65-3.65 3.64L16.76 17.5l5.06-5.06-5.06-5.05zM4 18.59 5.41 20l5.18-5.18-1.42-1.41zm11.35.91 5.06-5.06-5.06-5.06-1.41 1.41 3.65 3.65-3.65 3.64z"/></svg>
+        </button>
+
+        <button class="ctrl-btn" id="btn-prev" title="Previous">
+          <svg viewBox="0 0 24 24"><path d="M6 6h2v12H6zm3.5 6 8.5 6V6z"/></svg>
+        </button>
+
+        <button class="ctrl-play" id="btn-play"></button>
+
+        <button class="ctrl-btn" id="btn-next" title="Next">
+          <svg viewBox="0 0 24 24"><path d="M6 18l8.5-6L6 6v12zM16 6h2v12h-2z"/></svg>
+        </button>
+
+        <button class="ctrl-icon" id="btn-autonext" title="Auto next">
+          <svg viewBox="0 0 24 24"><path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/></svg>
+        </button>
+      </div>
+
+      <div class="volume-row">
+        <svg class="vol-icon" viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+        <input type="range" id="vol-slider" min="0" max="100" value="80" class="vol-slider"/>
+      </div>
+
+    </div>
+
+    <div class="tracklist">
+      <div class="tracklist-header">
+        <h2>tracklist</h2>
+        <span id="track-count" class="track-count"></span>
+      </div>
+      <div id="track-list"></div>
+    </div>
+
+  </div>
+
+  <div class="toast" id="toast-el"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
